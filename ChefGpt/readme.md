@@ -1,24 +1,10 @@
-This project showcases a Python-based culinary assistant leveraging OpenAI's GPT-3.5-turbo model and API.
-it first emulates an assistant tasked to categorize a request for one of the following:
-1) a recipe suggestion
-2) a dish suggestion 
-3) a critique of a recipe
 
+This program contains an ai bot with a more general prompt which will categorize your arbitrary input into one of the following
+1- 'suggestion' - if ingredients are listed or a suggestion is requested, than Chef Bourdain will recommend a dish based on those ingredients.
+2- 'recipe' - when the user requests  a specific dish, chef bourdain will give a recipe and ingredients.
+3) 'critique'- if a user describes a recipe than chef bourdain will give you his (sometimes very critical, as you can see below) opinion on it
+4) 'none'
 
-# ChefGPT Project Demonstration Report
-
-**Prepared by**: Austin Ramos  
-**Date**: [Insert Date]
-
-## Project Overview
-
-The `ChefGPT` project is a Python-based interactive culinary assistant that uses OpenAI's GPT-3.5-turbo model. The assistant is designed to provide suggestions for dishes based on ingredients, detailed recipes, and critiques of provided recipes, all while emulating the persona of Anthony Bourdain.
-
-### Key Features
-
-- **Ingredient-based Dish Suggestions**
-- **Detailed Recipe Provision**
-- **Constructive Recipe Critiques**
 
 ## Demonstration
 
@@ -26,7 +12,7 @@ The `ChefGPT` project is a Python-based interactive culinary assistant that uses
 
 **User Input**:
 ```plaintext
-ok i have a recipe where I first take a raw fish, i shred it in a meat shredder mixed with pork. then i soak it in water and fry it up in a deep fryer.
+I first take a raw fish, i shred it in a meat shredder mixed with pork. then i soak it in water and fry it up in a deep fryer.
 ```
 
 Response Type: CRITIQUE
